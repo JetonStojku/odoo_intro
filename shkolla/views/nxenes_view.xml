@@ -23,6 +23,17 @@
                                 <field name="nr_amez"/>
                             </group>
                         </group>
+
+                        <notebook>
+                            <page name="notat" string="Notat">
+                                <field name="notat">
+                                    <tree editable="bottom">
+                                        <field name="lenda"/>
+                                        <field name="nota"/>
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
                     </sheet>
                 </form>
             </field>
@@ -62,7 +73,7 @@
             </field>
         </record>
 
-        <menuitem id="shkolla_root_menu"  name="Shkolla"/>
+        <menuitem id="shkolla_root_menu" name="Shkolla"/>
         <menuitem name="Nxenes" id="nxenes_menu" parent="shkolla_root_menu" action="nxenes_act_window"/>
 
     </data>
