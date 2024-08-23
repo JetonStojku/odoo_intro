@@ -8,7 +8,7 @@
     'website': 'website',
     'license': 'LGPL-3',
     'depends': ['base'],
-    'data': ['views/nxenes_view.xml'],
+    'data': ['views/nxenes_view.xml', 'views/lenda_view.xml'],
     'installable': True,
     'auto_install': False,
     'application': True,
